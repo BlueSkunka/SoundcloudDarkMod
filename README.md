@@ -1,6 +1,6 @@
 # SoundcloudDarkMod
 
-## Installation
+## Chrome
 
 Télécharger l'archive puis l'extraire.
 
@@ -13,3 +13,6 @@ Cliquer sur "Charger l'extension non empaquetée".
 Sélectionner le dossier de l'extension.
 
 Ouvrir un nouvel onglet [soundcloud](http://soundcloud.com)
+
+## Firefox 
+(A venir)
