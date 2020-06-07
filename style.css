@@ -1,0 +1,10 @@
+body {
+    background: black;
+}
+
+.g-tabs-link, 
+.userstream__header,
+.compactTrackListItem__trackTitle,
+.soundTitle__title.sc-link-dark {
+    color: ghostwhite; 
+}
