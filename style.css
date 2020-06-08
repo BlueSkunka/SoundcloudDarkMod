@@ -2,9 +2,68 @@ body {
     background: black;
 }
 
-.g-tabs-link, 
+/* Tout / Titr populaire / Albums / Playlists / Reposts */
+.g-tabs-link, .g-tabs-link:visited {
+    color: ghostwhite;
+}
+
 .userstream__header,
-.compactTrackListItem__trackTitle,
-.soundTitle__title.sc-link-dark {
+.compactTrackListItem__number, .compactTrackListItem__trackTitle, 
+.soundTitle__title.sc-link-dark,
+.commentBadge__body,
+.userBadge__usernameLink.sc-link-dark.sc-truncate {
     color: ghostwhite; 
+}
+
+/* Trackname */
+.compactTrackListItem__trackTitle:hover {
+    color: #f50;
+}
+
+.compactTrackListItem__trackTitle {
+    color: #8a8a8a;
+}
+
+/* Barre qui apparaît lors du scroll down */
+.dropbar__content {
+    background-color: #827f7f;
+}
+
+/* Actions possible pour un titre (like / repost / share / more / download / buylink ) */
+.soundActions.sc-button-toolbar.soundActions__small {
+    background-color: black;
+}
+
+/* Pour la langue bottom right */
+.sc-text {
+    color: #f50;
+}
+
+/* "sur" dans les commentaire de l'utilisateur */
+.commentBadge__title {
+    color: #f50;
+}
+
+/* Sound info */
+.truncatedAudioInfo__content {
+    color: ghostwhite;
+}
+
+/* Sound commentary */
+.commentItem__body.sc-hyphenate {
+    color: ghostwhite;
+}
+
+/* ! Not working => sound commentary by creator */
+.commentItem.m-isReply.m-creatorComment {
+    background-color: black;
+}
+
+.commentItem.m-creatorComment {
+    background-color: black;
+}
+
+/* Report button */
+.reportCopyright__full {
+    color: white;
 }
