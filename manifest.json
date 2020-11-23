@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "DarkMod",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Simple soundcloud darkmod",
     "permissions": [
         "http://*/*",
