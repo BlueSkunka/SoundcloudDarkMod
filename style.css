@@ -1,10 +1,18 @@
 body {
-    background: black;
+    background: #1d1d1d !important;
 }
 
 /* Tout / Titr populaire / Albums / Playlists / Reposts */
-.g-tabs-link, .g-tabs-link:visited {
-    color: ghostwhite;
+.g-tabs-link {
+    color: ghostwhite !important;
+}
+
+.g-tabs-link-active {
+    color: #f50 !important;
+}
+
+.g-tabs-link:hover {
+    color: #f50 !important;
 }
 
 .userstream__header,
@@ -12,58 +20,132 @@ body {
 .soundTitle__title.sc-link-dark,
 .commentBadge__body,
 .userBadge__usernameLink.sc-link-dark.sc-truncate {
-    color: ghostwhite; 
+    color: ghostwhite !important; 
+}
+
+/* Buttons */
+.sc-button {
+    background-color: ghostwhite !important;
+}
+
+.sc-button-cta {
+    color: black !important;
+}
+
+.sc-buylink {
+    color: #f50 !important;
 }
 
 /* Trackname */
 .compactTrackListItem__trackTitle:hover {
-    color: #f50;
+    color: #f50 !important;
 }
 
 .compactTrackListItem__trackTitle {
-    color: #8a8a8a;
+    color: #8a8a8a !important;
+}
+
+.compactTrackListItem__number {
+    color: #f50 !important;
 }
 
 /* Barre qui apparaît lors du scroll down */
 .dropbar__content {
-    background-color: #827f7f;
+    background-color: #1d1d1d !important;
+}
+
+.userDropbar__title{
+    color: #f50 !important;
 }
 
 /* Actions possible pour un titre (like / repost / share / more / download / buylink ) */
 .soundActions.sc-button-toolbar.soundActions__small {
-    background-color: black;
+    background-color: #1d1d1d !important;
+}
+
+.trackList__item>.trackItem>.trackItem__additional>.trackItem__actions>.soundActions.sc-button-toolbar>.sc-button-group.soundActions__small {
+    background-color: ghostwhite !important;
 }
 
 /* Pour la langue bottom right */
 .sc-text {
-    color: #f50;
+    color: #f50 !important;
 }
 
 /* "sur" dans les commentaire de l'utilisateur */
 .commentBadge__title {
-    color: #f50;
+    color: #f50 !important;
 }
+
+/* ! SOUND PAGE */
 
 /* Sound info */
 .truncatedAudioInfo__content {
-    color: ghostwhite;
+    color: ghostwhite !important;
 }
 
 /* Sound commentary */
 .commentItem__body.sc-hyphenate {
-    color: ghostwhite;
+    color: ghostwhite !important;
 }
 
-/* ! Not working => sound commentary by creator */
+.commentPopover__body{
+    color: ghostwhite !important;
+}
+
 .commentItem.m-isReply.m-creatorComment {
-    background-color: black;
+    background-color: black !important;
 }
 
 .commentItem.m-creatorComment {
-    background-color: black;
+    background-color: black !important;
+}
+
+/* Sound description */
+.listenDetails__description {
+    color: ghostwhite !important;
+}
+
+/* Sound player */
+.visualSound__wrapper {
+    background-color: #1d1d1d !important;
+}
+
+.soundActions {
+    background-color: #1d1d1d !important;
 }
 
 /* Report button */
 .reportCopyright__full {
-    color: white;
+    color: #f50 !important;
+}
+
+.trackList__item:hover {
+    color: #f50 !important;
+}
+
+/* ! PAGE ACCUEIL */
+.mixedSelectionModule__titleText {
+    color: #f50 !important;
+}
+
+.playableTile__heading {
+    color: ghostwhite !important;
+}
+
+.playableTile__heading:hover {
+    color: #f50 !important;
+}
+
+.sc-button-play {
+    background-color: #f50 !important;
+}
+
+/* ! PAGE STREAM */
+.soundContext__usernameLink {
+    color: ghostwhite !important;
+}
+
+.soundContext__usernameLink:hover {
+    color: #f50 !important;
 }
