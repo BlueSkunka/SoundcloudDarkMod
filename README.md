@@ -27,3 +27,11 @@ Cliquer sur l'engrenage et choisir "Installer un module depuis un fichier...".
 Sélectionner l'archive (.xpi - .jar - .zip).
 
 Ouvrir un nouvel onglet [soundcloud](http://soundcloud.com).
+
+## Contact
+
+Pour toute demande ou signalement de dysfonctionnement, veuillez me contacter à l'adresse suivante:
+
+skunkaproduction@gmail.com
+
+Merci d'inscrire un objet de mail clair, sinon le mail ne sera pas traité.
