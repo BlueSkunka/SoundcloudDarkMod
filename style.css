@@ -1,18 +1,19 @@
 body {
     background: #1d1d1d !important;
-}
-
-/* Tout / Titr populaire / Albums / Playlists / Reposts */
-.g-tabs-link {
     color: ghostwhite !important;
 }
 
+/* Tout / Titr populaire / Albums / Playlists / Reposts */
 .g-tabs-link-active {
     color: #f50 !important;
 }
 
 .g-tabs-link:hover {
     color: #f50 !important;
+}
+
+.g-tabs-link {
+    color: ghostwhite !important;
 }
 
 .userstream__header,
@@ -147,5 +148,14 @@ body {
 }
 
 .soundContext__usernameLink:hover {
+    color: #f50 !important;
+}
+
+.soundContext__caption {
+    color: #f50 !important;
+}
+
+/* ! PAGE BIBLIOTHEQUE */
+.collectionSection__heading {
     color: #f50 !important;
 }
