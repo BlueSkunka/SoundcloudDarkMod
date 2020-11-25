@@ -1,4 +1,9 @@
 {
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "test@test"
+        }
+    },
     "manifest_version": 2,
     "name": "Soundcloud DarkMod",
     "version": "1.5",
